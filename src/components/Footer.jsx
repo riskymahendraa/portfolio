@@ -1,5 +1,6 @@
 import React from "react";
 import { FaGithub, FaInstagram, FaWhatsapp } from "react-icons/fa";
+import { FaThreads } from "react-icons/fa6";
 
 const Footer = () => {
   return (
@@ -8,14 +9,14 @@ const Footer = () => {
         <div className="text-sm text-neutral-300 font-light tracking-wide">
           Copyright © 2024. Create By Love | All Rights Reserved
         </div>
-        <div className="my-2 justify-center items-center flex gap-4 md:gap-5">
+        <div className="my-2 justify-center items-center flex space-x-3 md:space-x-4">
           <div>
             <a
               rel="noopener noreferrer"
               href="https://github.com/riskymahendraa"
               target="_blank"
             >
-              <FaGithub className="text-3xl text-neutral-300 hover:text-orange-500 hover:scale-110 hover:transition-all hover:duration-200" />
+              <FaGithub className="text-xl md:text-3xl text-neutral-300 hover:text-orange-500 hover:scale-110 hover:transition-all hover:duration-200" />
             </a>
           </div>
           <div>
@@ -24,7 +25,7 @@ const Footer = () => {
               href="https://www.instagram.com/riskymahendraa/"
               target="_blank"
             >
-              <FaInstagram className="text-3xl text-neutral-300 hover:text-orange-500 hover:scale-110 hover:transition-all hover:duration-200" />
+              <FaInstagram className="text-xl md:text-3xl text-neutral-300 hover:text-orange-500 hover:scale-110 hover:transition-all hover:duration-200" />
             </a>
           </div>
           <div>
@@ -33,7 +34,16 @@ const Footer = () => {
               href="https://api.whatsapp.com/send/?phone=6281237258566&text&type=phone_number&app_absent=0"
               target="_blank"
             >
-              <FaWhatsapp className="text-3xl text-neutral-300 hover:text-orange-500 hover:scale-110 hover:transition-all hover:duration-200" />
+              <FaWhatsapp className="text-xl md:text-3xl text-neutral-300 hover:text-orange-500 hover:scale-110 hover:transition-all hover:duration-200" />
+            </a>
+          </div>
+          <div>
+            <a
+              rel="noopener noreferrer"
+              href="https://www.threads.com/@riskymahendraa?xmt=AQF0LYb-LDipHWjiF_D9441XgoS66y_1d2pdPtgKzQ6-Mes"
+              target="_blank"
+            >
+              <FaThreads className="text-xl md:text-3xl text-neutral-300 hover:text-orange-500 hover:scale-110 hover:transition-all hover:duration-200" />
             </a>
           </div>
         </div>

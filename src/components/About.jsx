@@ -1,11 +1,8 @@
-import React, { useEffect } from "react";
 import image_1 from "../images/image-1.jpg";
 import image_2 from "../images/image-2.jpg";
-import Aos from "aos";
 import "aos/dist/aos.css";
 
 const About = () => {
- 
   return (
     <div
       data-aos="fade-up"
