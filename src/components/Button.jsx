@@ -1,7 +1,9 @@
 import React from "react";
 
 const Button = (props) => {
-  const { text = "Click Me", classname, type } = props;
+  const { text = "Click Me", classname, type, hidden = false } = props;
+  if (hidden) return null;
+
   return (
     <div>
       <button

@@ -11,10 +11,12 @@ const Hero = () => {
           RISKY <span className="text-orange-500 tracking-wide">MAHENDRA</span>
         </h1>
         <div className="my-2 font-bold tracking-wide">Web Developer</div>
-        <div className="my-3">
-          Hi, I am Risky Mahendra. I am a Web Developer based in Bali,
-          Indonesia. i really enjoy coding and learning new things esspecially
-          frontend development.
+        <div className="my-3 text-sm leading-relaxed tracking-wide text-justify">
+          "Hi, I’m Risky Mahendra 👋 A Web Developer from Bali who loves
+          creating beautiful, functional, and responsive websites. Coding is not
+          just my job—it’s something I truly enjoy. I’m especially passionate
+          about website development and always eager to learn the latest web
+          technologies."
         </div>
         <a href={myResume} download>
           <Button
