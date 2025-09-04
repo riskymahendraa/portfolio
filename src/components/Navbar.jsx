@@ -1,6 +1,7 @@
 /* eslint-disable */
 import React from "react";
 import { FaGithub, FaInstagram, FaWhatsapp } from "react-icons/fa";
+import { FaThreads } from "react-icons/fa6";
 
 const Navbar = () => {
   return (
@@ -26,6 +27,13 @@ const Navbar = () => {
           target="_blank"
         >
           <FaWhatsapp className="text-4xl text-neutral-300 hover:text-orange-400 hover:scale-110 hover:border-b-2 hover:border-orange-400 py-1 hover:transition-all hover:duration-200" />
+        </a>
+        <a
+          rel="noopener noreferrer"
+          href="https://www.threads.com/@riskymahendraa?xmt=AQF0LYb-LDipHWjiF_D9441XgoS66y_1d2pdPtgKzQ6-Mes"
+          target="_blank"
+        >
+          <FaThreads className="text-4xl text-neutral-300 hover:text-orange-400 hover:scale-110 hover:border-b-2 hover:border-orange-400 py-1 hover:transition-all hover:duration-200" />
         </a>
       </div>
     </div>
