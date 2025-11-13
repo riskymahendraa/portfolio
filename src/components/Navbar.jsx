@@ -1,6 +1,6 @@
 /* eslint-disable */
 import React from "react";
-import { FaGithub, FaInstagram, FaWhatsapp } from "react-icons/fa";
+import { FaGithub, FaInstagram, FaWhatsapp, FaLinkedin } from "react-icons/fa";
 import { FaThreads } from "react-icons/fa6";
 
 const Navbar = () => {
@@ -34,6 +34,13 @@ const Navbar = () => {
           target="_blank"
         >
           <FaThreads className="text-4xl text-neutral-300 hover:text-orange-400 hover:scale-110 hover:border-b-2 hover:border-orange-400 py-1 hover:transition-all hover:duration-200" />
+        </a>
+        <a
+          rel="noopener noreferrer"
+          href="https://www.linkedin.com/in/risky-mahendra-8b34a81b2?utm_source=share_via&utm_content=profile&utm_medium=member_ios"
+          target="_blank"
+        >
+          <FaLinkedin className="text-4xl text-neutral-300 hover:text-orange-400 hover:scale-110 hover:border-b-2 hover:border-orange-400 py-1 hover:transition-all hover:duration-200" />
         </a>
       </div>
     </div>

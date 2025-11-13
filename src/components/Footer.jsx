@@ -1,5 +1,6 @@
 import React from "react";
 import { FaGithub, FaInstagram, FaWhatsapp } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 import { FaThreads } from "react-icons/fa6";
 
 const Footer = () => {
@@ -7,7 +8,7 @@ const Footer = () => {
     <div>
       <div className="text-center md:flex md:justify-between items-center max-w-xs md:max-w-md lg:max-w-5xl mx-auto my-2">
         <div className="text-sm text-neutral-300 font-light tracking-wide">
-          Copyright © 2024. Create By Love | All Rights Reserved
+          Copyright © 2025. Create By Love | All Rights Reserved
         </div>
         <div className="my-2 justify-center items-center flex space-x-3 md:space-x-4">
           <div>
@@ -44,6 +45,15 @@ const Footer = () => {
               target="_blank"
             >
               <FaThreads className="text-xl md:text-3xl text-neutral-300 hover:text-orange-500 hover:scale-110 hover:transition-all hover:duration-200" />
+            </a>
+          </div>
+          <div>
+            <a
+              rel="noopener noreferrer"
+              href="https://www.linkedin.com/in/risky-mahendra-8b34a81b2?utm_source=share_via&utm_content=profile&utm_medium=member_ios"
+              target="_blank"
+            >
+              <FaLinkedin className="text-xl md:text-3xl text-neutral-300 hover:text-orange-500 hover:scale-110 hover:transition-all hover:duration-200" />
             </a>
           </div>
         </div>
