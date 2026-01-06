@@ -8,7 +8,7 @@ const Footer = () => {
     <div>
       <div className="text-center md:flex md:justify-between items-center max-w-xs md:max-w-md lg:max-w-5xl mx-auto my-2">
         <div className="text-sm text-neutral-300 font-light tracking-wide">
-          Copyright © 2025. Create By Love | All Rights Reserved
+          Copyright © 2026. Create By Love | All Rights Reserved
         </div>
         <div className="my-2 justify-center items-center flex space-x-3 md:space-x-4">
           <div>
