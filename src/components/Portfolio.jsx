@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import mockup from "../images/mockup-1.png";
-import mockup_2 from "../images/mockup-2.png";
+import mockup_2 from "../images/project-22.webp";
 import mockup_3 from "../images/mockup-3.png";
 import mockup_4 from "../images/project-1.png";
 import Card from "./Card";
@@ -12,6 +12,7 @@ import { FaBootstrap } from "react-icons/fa";
 import { FaLaravel } from "react-icons/fa";
 import { FaReact } from "react-icons/fa";
 import { SiMysql } from "react-icons/si";
+import { SiNextdotjs } from "react-icons/si";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
@@ -32,16 +33,17 @@ const projects = [
   },
   {
     img: mockup_2,
-    title: "Landing Page",
+    title: "Getbalitrip.com",
     description:
-      "Landing page build for restaurant business with information about menu and connect to social media and whatsapp admin",
-    link: "https://riskymahendraa.github.io/restaurant-landing-page/",
+      "Landing page build for travel business website with information about package tours and connect to social media and whatsapp admin",
+    link: "https://www.getbalitrip.com/",
     link_github: "https://github.com/riskymahendraa/restaurant-landing-page",
     icons: [
       { element: <TiHtml5 />, color: "text-orange-400" },
       { element: <RiTailwindCssFill />, color: "text-cyan-400" },
       { element: <IoLogoJavascript />, color: "text-yellow-300" },
       { element: <SiDaisyui />, color: "text-white" },
+      { element: <SiNextdotjs />, color: "text-white" },
     ],
   },
   {
@@ -91,7 +93,7 @@ const Portfolio = () => {
         Portfolio
       </h1>
 
-      <div className="grid md:grid-cols-3 gap-6 mx-auto justify-center">
+      <div className="grid md:grid-cols-2 w-full gap-6 mx-auto justify-center">
         {projects.map((project, index) => (
           <Card key={index} {...project} />
         ))}
